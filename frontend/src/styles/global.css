@@ -1,0 +1,58 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.navbar-glass {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.summary-card {
+  border-radius: 1rem;
+  min-height: 120px;
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  border: none;
+}
+
+.chart-placeholder {
+  min-height: 180px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: rgba(255,255,255,0.06);
+}
+
+.loading-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
